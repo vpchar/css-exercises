@@ -64,3 +64,26 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* sol */
+.modal{
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+/* icon shrink */
+.icon{
+  flex-shrink: 0;
+}
+/* header */
+.title{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  font-weight: bold;
+  font-size: large;
+}
+/* button panel */
+.buttons{
+  margin-top: 16px;
+}
